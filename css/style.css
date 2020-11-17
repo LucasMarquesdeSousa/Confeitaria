@@ -1,14 +1,116 @@
-nav{
-    width: 100%;
-    height: 6vw;
-    background-color: black;
-    
-}
-img{
-    width: 100%;
-    height: 100%;
-}
-.logo{
-    width: 6%;
-    height: 100%;
-}
+                    nav {
+                        width: 100%;
+                        background-color: brown;
+                    }
+                    
+                    .apre {
+                        width: 100%;
+                        height: 4vw;
+                        background-color: rgb(119, 23, 23);
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    
+                    .ca {
+                        width: 100%;
+                        margin-left: 40%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    
+                    .marca {
+                        font-size: 30pt;
+                        font-family: cursive;
+                        color: white;
+                    }
+                    
+                    body {
+                        background-color: darkgray;
+                    }
+                    
+                    img {
+                        width: 100%;
+                        height: 90%;
+                        border-radius: 100%;
+                    }
+                    
+                    .logo {
+                        width: 4%;
+                        height: 100%;
+                        margin: 0px 3% 0pz 5%;
+                    }
+                    
+                    .bot-menu {
+                        color: white;
+                        width: auto;
+                        height: auto;
+                        text-decoration: none;
+                        margin: 0px 5% 0px 20%;
+                    }
+                    
+                    .bot-menu:hover {
+                        background-color: rgb(119, 23, 23);
+                    }
+                    
+                    .bolos {
+                        width: 90%;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    
+                    .quat-bolos {
+                        margin: 2% 3% 0% 5%;
+                    }
+                    
+                    .meio {
+                        width: 100%;
+                    }
+                    
+                    .bot-meio-cad {
+                        background-color: brown;
+                        color: white;
+                        border-radius: 10px;
+                        width: 40%;
+                        height: 3vw;
+                        margin: 5% 30% 0% 30%;
+                        font-size: 20pt;
+                    }
+                    
+                    .op {
+                        width: 100%;
+                        /*background-color: chartreuse;*/
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    
+                    .opnioes {
+                        width: 60%;
+                        height: 20vw;
+                        margin: 1% 1% 0px 1%;
+                        border: 1px solid black;
+                    }
+                    
+                    .insta {
+                        text-decoration: none;
+                        font-size: 20pt;
+                        color: white;
+                        margin: 0px 0px 0px 10%;
+                    }
+                    
+                    .contatos {
+                        background-color: darkred;
+                        width: 100%;
+                        height: 7vw;
+                    }
+                    
+                    .nome {
+                        width: 100%;
+                        height: 10%;
+                        font-size: 100%;
+                    }
+                    
+                    .mensagem {
+                        width: 100%;
+                    }
