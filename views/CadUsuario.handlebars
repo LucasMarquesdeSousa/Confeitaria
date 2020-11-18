@@ -1,4 +1,24 @@
-<form action="" method="post">
-    <input type="text" name="nome" placeholder="Nome"/>
-    <input type="text" placeholder="endereço"/>
-</form>
+<header class="contanier" id="ol">
+    <header class="apre">
+        <div class="ca">
+            <h1 class="marca">Susan's Cakes</h1>
+            <div class="logo"><img src="logo" /></div>
+        </div>
+    </header>
+    <nav>
+        <a href="pgInicial" class="bot-menu">Página Inicial</a>
+        <a href="cad" class="bot-menu">Cadastrar</a>
+        <a href="logouts" class="bot-menu"> Entrar</a>
+        <a href="cadped" class="bot-menu">Faça seu pedido</a>
+
+    </nav>
+    <div class="formulario"> 
+        <form action="ControllerForm" method="post" class="cadUsuario">
+            <input type="text" name="nome" placeholder="Nome" class="inputs" />
+            <input type="email" name="email" id="email" placeholder="Email" class="inputs" />
+            <input type="text" placeholder="endereço" placeholder="Endereço" class="inputs" />
+            <input type="tel" name="tel" id="tel" placeholder="Telefone" class="inputs" />
+            <input type="submit" value="Cadastrar" class="inputs" />
+        </form>
+    </div>
+</header>

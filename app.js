@@ -30,6 +30,9 @@ app.get('/logouts', function(req, res) {
 })
 app.get('/cadped', function(req, res) {
     res.render('CadPedido')
+});
+app.get('/pgInicial', function(req, res) {
+    res.render('index')
 })
 
 
